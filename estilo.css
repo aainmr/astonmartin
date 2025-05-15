@@ -19,6 +19,7 @@
   align-items: center;
   margin: 0 auto;
   padding: 24px;
+  margin-top:-40px;
  }
  .logo img{
   width: 136px;
@@ -41,6 +42,9 @@
   border-radius: 8px;
   text-decoration: none;
   padding: 16px 24px;
+ }
+ hr{
+  margin-top: -32px;
  }
  .section .box {
    width: 100%;
@@ -120,7 +124,7 @@
 
  }
  
- .conteudo {
+ .conteudo2 {
    display: flex;
    flex-direction: column;
    gap: 24px;
@@ -195,5 +199,30 @@
   margin-top: -16px;
   margin-right: 284px;
  }
-
- 
+/*mobile responsive*/
+@media screen and (max-width: 768px){
+.container{
+  height: auto;
+  width: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.menu .btn{
+  align-content: center;
+  margin-left: 180px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+}
+.section img{
+  width: 100%;
+}
+ .conteudo img{
+  width: 100%;
+ }
