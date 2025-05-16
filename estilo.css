@@ -227,13 +227,21 @@ justify-content: space-between;
   margin-top: 32px;
   margin-right:300px;
 }
+.menu{
+  width: 1100px;
+  justify-content: space-between;
+ 
+}
 .menu ul {
   margin-top: 32px;
   margin-left: 300px;
+  padding: 0 0 8px;
+  justify-content: space-between;
 }
 .menu ul a{
   margin: 16px;
   justify-items: space-between;
+  align-items: center;
 
 
 }
