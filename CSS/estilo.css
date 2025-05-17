@@ -226,7 +226,11 @@
 
 
 @media screen and (max-width: 768px){
-.header{
+.body{
+  width: 768px;
+  height: auto;
+}
+  .header{
   width: 100%;
   height: auto;
   border-bottom: 1px solid #D0D1D3;
