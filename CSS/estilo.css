@@ -5,7 +5,7 @@
  }
  body{
   background-color: #020202;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Inter"
  }
  .container{
   width: 100%;
@@ -25,12 +25,14 @@
  }
  .menu{
   padding-right: 310px;
+
  }
  .menu ul{
   display: flex;
   flex-direction: row;
   padding: 16px;
   margin: 16px;
+  font-weight: 300;
  }
  .menu ul a{
   color: #fff;
@@ -72,22 +74,24 @@
  .box h2 {
    color: #fff;
    margin: 0;
-  font-weight: 300;
    letter-spacing: 1px;
    font-size: 30px;
+   font-weight: 300;
  }
  .destaque {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 40px;
  }
  .box p {
    color: #fff;
    margin: 0;
    margin-bottom: 32px;
-   font-weight: lighter;
+   font-weight: 100;
    font-size: 20px;
  }
- 
+ .p1{
+  width: 270px;
+ }
  .btn1 {
    color: #fff;
    background-color: transparent;
@@ -135,7 +139,7 @@
    color: #fff;
    margin: 0;
    font-size: 32px;
-   font-weight: lighter;
+   font-weight: 400;
  }
  
  .box1 p {
@@ -144,7 +148,14 @@
    margin-bottom: 16px;
    font-weight: lighter;
  }
- 
+ .p2{
+  width: 600px;
+  height: 97px;
+  margin-right: 300px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 100px;
+ }
  .btn1 {
    color: #fff;
    background-color: #020202;
@@ -154,6 +165,7 @@
    border-radius: 6px;
    transition: 0.3s;
    width: fit-content;
+   font-weight: 300;
  }
 
  .btn1:hover {
@@ -167,8 +179,6 @@
  }
 
  .footer{
-
-  margin-bottom: 48px;
   padding: 32px 32px;
   width: auto 0;
   background-color: #fff;
@@ -178,7 +188,7 @@
  
  
  .footer h4{
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 16px;
   margin-left: 296px;
   margin-right: 296px;
@@ -187,22 +197,27 @@
   display: flex;
   flex-direction: row;
   margin-left: 296px;
-  font-weight: lighter;
+  font-weight: 400;
+  margin-top: 48px;
  }
 
  .footer .texto{
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-right: 300px;
   margin-top: -16px;
-  margin-right: 284px;
+
  }
  
  .vector{
+  height: 48px;
   border-bottom: 1px solid #000;
+  margin-bottom: 16px;
  }
 
 .footertxt{
+  height: 121px;
   border-bottom: 1px solid #000;
   text-align: center;
 }
