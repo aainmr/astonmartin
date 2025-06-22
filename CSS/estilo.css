@@ -80,8 +80,7 @@ html, body {
    font-weight: 100;
    font-size: 20px;
   text-align: center;
-    word-wrap: break-word;
-    word-break: break-word;
+ 
  }
  .p1{
   width: 370px;
@@ -176,6 +175,7 @@ html, body {
   padding: 32px 32px;
   background-color: #fff;
   text-align: center;
+    box-sizing: border-box;
   
  }
  
