@@ -299,6 +299,9 @@ margin-left: -20px;
 .conteudo p{
   font-size: 25px;
 }
+.box1 .conteudo{
+  margin-left: -30px;
+}
   .btn1, .btn11 {
     margin: 15px auto;
     display: inline-block;
